@@ -11,5 +11,5 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.thebjoredcraft:kotlin-commons:1.0.1")
+    implementation("com.github.TheBjoRedCraft.kotlin-commons:kcoms-api-common:+")
 }
