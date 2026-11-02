@@ -1,0 +1,16 @@
+[versions]
+fastutil = "8.5.19"
+caffeine = "3.3.0"
+caffeine-courotines = "3.0.4"
+
+paper-api = "26.3.build.+"
+velocity-api = "3.5.0-SNAPSHOT"
+
+[libraries]
+fastutil = { module = "it.unimi.dsi:fastutil", version.ref = "fastutil" }
+caffeine = { module = "com.github.ben-manes.caffeine:caffeine", version.ref = "caffeine" }
+caffeine-courotines = { module = "com.sksamuel.aedile:aedile-core", version.ref = "caffeine-courotines" }
+
+paper-api = { module = "io.papermc.paper:paper-api", version.ref = "paper-api" }
+velocity-api = { module = "com.velocitypowered:velocity-api", version.ref = "velocity-api" }
+velocity-proxy-ctd = { module = "com.velocityctd:velocity-proxy", version.ref = "velocity-api" }

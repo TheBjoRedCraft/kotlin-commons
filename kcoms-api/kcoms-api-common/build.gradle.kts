@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    compileOnly("it.unimi.dsi:fastutil")
+    compileOnly(libs.fastutil)
 }
