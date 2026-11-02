@@ -1,5 +1,5 @@
 plugins {
-    id("java")
+    kotlin("jvm") version "2.4.20"
 }
 
 group = "dev.thebjoredcraft.kcoms"
